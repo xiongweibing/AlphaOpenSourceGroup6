@@ -1,1 +1,0 @@
-# AlphaOpenSourceGroup6
