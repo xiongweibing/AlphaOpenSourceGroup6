@@ -573,7 +573,7 @@ export default {
           let params4 = [arr[4][3].M_userPer, arr[4][4].M_userPer, arr[4][5].M_userPer];
           that.displayPieChart(params4);
         };
-        if (params.name == "南岸区") {
+        if (params.name == "渝中区") {
           let params1 = [arr[4][9].Month_1,arr[4][9].Month_2,arr[4][9].Month_3,arr[4][9].Month_4,arr[4][9].Month_5,arr[4][9].Month_6 ,arr[4][9].Month_7,arr[4][9].Month_8,arr[4][9].Month_9,arr[4][9].Month_10,arr[4][9].Month_11,arr[4][9].Month_12 ];
           let params2 = [arr[4][10].Month_1,arr[4][10].Month_2,arr[4][10].Month_3,arr[4][10].Month_4,arr[4][10].Month_5,arr[4][10].Month_6 ,arr[4][10].Month_7,arr[4][10].Month_8,arr[4][10].Month_9,arr[4][10].Month_10,arr[4][10].Month_11,arr[4][10].Month_12 ];
           let params3 = [arr[4][11].Month_1,arr[4][11].Month_2,arr[4][11].Month_3,arr[4][11].Month_4,arr[4][11].Month_5,arr[4][11].Month_6 ,arr[4][11].Month_7,arr[4][11].Month_8,arr[4][11].Month_9,arr[4][11].Month_10,arr[4][11].Month_11,arr[4][11].Month_12 ];
@@ -591,7 +591,7 @@ export default {
           let params4 = [arr[4][9].M_userPer, arr[4][10].M_userPer, arr[4][11].M_userPer];
           that.displayPieChart(params4);
         };
-        if (params.name == "渝中区") {
+        if (params.name == "沙坪坝区") {
           let params1 = [arr[4][15].Month_1,arr[4][15].Month_2,arr[4][15].Month_3,arr[4][15].Month_4,arr[4][15].Month_5,arr[4][15].Month_6 ,arr[4][15].Month_7,arr[4][15].Month_8,arr[4][15].Month_9,arr[4][15].Month_10,arr[4][15].Month_11,arr[4][15].Month_12];
           let params2 = [arr[4][16].Month_1,arr[4][16].Month_2,arr[4][16].Month_3,arr[4][16].Month_4,arr[4][16].Month_5,arr[4][16].Month_6 ,arr[4][16].Month_7,arr[4][16].Month_8,arr[4][16].Month_9,arr[4][16].Month_10,arr[4][16].Month_11,arr[4][16].Month_12 ];
           let params3 = [arr[4][17].Month_1,arr[4][17].Month_2,arr[4][17].Month_3,arr[4][17].Month_4,arr[4][17].Month_5,arr[4][17].Month_6 ,arr[4][17].Month_7,arr[4][17].Month_8,arr[4][17].Month_9,arr[4][17].Month_10,arr[4][17].Month_11,arr[4][17].Month_12  ];
@@ -627,7 +627,7 @@ export default {
           let params4 = [arr[4][12].M_userPer, arr[4][13].M_userPer, arr[4][14].M_userPer];
           that.displayPieChart(params4);
         };
-        if (params.name == "沙坪坝区") {
+        if (params.name == "南岸区") {
           let params1 = [arr[4][6].Month_1,arr[4][6].Month_2,arr[4][6].Month_3,arr[4][6].Month_4,arr[4][6].Month_5,arr[4][6].Month_6 ,arr[4][6].Month_7,arr[4][6].Month_8,arr[4][6].Month_9,arr[4][6].Month_10,arr[4][6].Month_11,arr[4][6].Month_12 ];
           let params2 = [arr[4][7].Month_1,arr[4][7].Month_2,arr[4][7].Month_3,arr[4][7].Month_4,arr[4][7].Month_5,arr[4][7].Month_6 ,arr[4][7].Month_7,arr[4][7].Month_8,arr[4][7].Month_9,arr[4][7].Month_10,arr[4][7].Month_11,arr[4][7].Month_12 ];
           let params3 = [arr[4][8].Month_1,arr[4][8].Month_2,arr[4][8].Month_3,arr[4][8].Month_4,arr[4][8].Month_5,arr[4][8].Month_6 ,arr[4][8].Month_7,arr[4][8].Month_8,arr[4][8].Month_9,arr[4][8].Month_10,arr[4][8].Month_11,arr[4][8].Month_12 ];
@@ -644,7 +644,7 @@ export default {
             }
           }
           that.displayFoldLine(params11, params12, params13);
-          let params4 = [arr[4][0].M_userPer, arr[4][1].M_userPer, arr[4][2].M_userPer];
+          let params4 = [arr[4][6].M_userPer, arr[4][7].M_userPer, arr[4][8].M_userPer];
           that.displayPieChart(params4);
         };
       });

@@ -1,0 +1,31 @@
+/* pages/index/Component/FormM/FormM.wxss */
+wx-button {
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+wx-label {
+  display: block;
+  margin-top: 10rpx;
+}
+.picker-text {
+  margin-left: 20rpx;
+  position: relative;
+}
+ .lineView{
+  margin-top: 1px;
+  margin-left: 100px;
+  margin-right: 100px; 
+  height: 1px;
+  background-color: lightblue;
+} 
+.picker{
+  padding: 50rpx;
+  background-color: #FFFFFF;
+}
+radiogroup{
+display: float;
+align-items: center;
+margin-left: 70px;
+margin-right: 150px;
+}
+

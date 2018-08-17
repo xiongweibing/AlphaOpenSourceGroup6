@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/login/login",
+    "pages/index/Component/FormM/FormM",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "中国电信挂图作战",
+    "navigationBarTextStyle":"white",
+    "backgroundColor": "#fbf9fe"
+  }
+}

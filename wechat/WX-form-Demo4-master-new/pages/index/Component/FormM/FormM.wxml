@@ -1,0 +1,48 @@
+<!--pages/index/Component/FormM/FormM.wxml-->
+ <view class="viewTitle">
+    <text class="view-Name">数据录入</text>
+    <view class="lineView"></view>
+</view> 
+<!--这里用form，name=“nameName1”可以作为form的属性进行 
+（e.detail.value.nameName1）调用,
+form自带有提交和重置按钮，会自动获取表单中所有控件值的改变-->
+<form class="page__bd" bindsubmit="formSubmit" bindreset="formReset">
+        <view class="section">
+      <view class="section__title">地区选择</view>
+      <picker name="areaPicker" bindchange="bindPickerChange" value="{{index1}}" range="{{array}}">
+        <view class="picker">
+          当前选择：{{array[index1]}}
+        </view>
+      </picker>
+    </view>
+    <view class="section section_gap">
+      <view class="section__title">运营商</view>
+      <radio-group name="radiogroup" >
+        <label><radio value="0"/>电信</label>
+        <label><radio value="1"/>移动</label>
+        <label><radio value="2"/>联通</label>
+      </radio-group>
+    </view>
+        <view class="section section_gap">
+      <view class="section__title">月份</view>
+      <slider value="1" name="slider" min="1" max="12" show-value ></slider>
+    </view>
+    <view class="section section_gap">
+    <view class="section">
+      <view class="section__title">本月收入</view>
+      <input name="input1" style="background-color: #FFFFFF" placeholder="请在这里输入" />
+    </view>
+        <view class="section">
+      <view class="section__title">当前用户数</view>
+      <input name="input2" style="background-color: #FFFFFF" placeholder="请在这里输入" />
+    </view>
+    <!-- <view class="section">
+      <view class="section__title">月收入环比情况</view>
+      <input name="input3" style="background-color: #FFFFFF" placeholder="请在这里输入" />
+    </view> -->
+    </view>
+    <view class="btn-area">
+      <button form-type="submit">提交</button>
+      <button form-type="reset">重置页面</button>
+    </view>
+  </form>
